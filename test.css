@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#tablet{
+    border:1px solid #ccc; 
+    margin:10px;cursor:crosshair; 
+    background-color: aqua;
+    z-index: 1;
+}
+
+.btn-color{
+    position: absolute;
+    background-image: url(image02.png);
+    background-size: cover;
+    min-width: 40px;    
+    min-height: 40px;
+    border: black 1px solid;
+    z-index: 2;
+    top: 18px;
+    left: 75px;
+
+}
+
+
+
+.btn-line{
+    position: absolute;
+    background-image: url(image01.png);
+    background-size: cover;
+    min-width: 40px;
+    min-height: 40px;
+    border: black 1px solid;
+    z-index: 2;
+    top: 18px;
+    left: 18px;
+}
